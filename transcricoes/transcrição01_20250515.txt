@@ -1,0 +1,490 @@
+0:00
+(Rafael de PauliBaptista) Acho que tá eh (Rafael de PauliBaptista) gravação agora foi. - (Leandra Schneider) de ferro.
+0:08
+(Rafael de PauliBaptista) Pronto. (Rafael de PauliBaptista) Tô gravando. É, depois depois - (Leandra Schneider) conseguiu.
+0:28
+(Rafael de PauliBaptista) eu consigo gerar aqui, ó. Um pouquinho (Rafael de PauliBaptista) aqui, tá? Então esse aqui é nosso trabalho, né?
+0:36
+(Rafael de PauliBaptista) Identificação de riscos de atraso em pedidos. - (Leandra Schneider) Aham. Uhum. (Rafael de PauliBaptista) contexto. A área de logística extraiu dados com base no histórico
+0:44
+(Rafael de PauliBaptista) de de pedidos da empresa. Então, tem um histórico de de (Rafael de PauliBaptista) pedidos referente ao segundo semestre de 2023.
+0:52
+(Rafael de PauliBaptista) Então, tem uma base histórica que é essa aqui, né? Mais ou menos - (Leandra Schneider) Iso. (Rafael de PauliBaptista) eh meio milhão de linhas e tem
+1:00
+(Rafael de PauliBaptista) 6 meses é de dado, tá? - (Leandra Schneider) Uhum. Nossa, muita (Rafael de PauliBaptista) É, tem que ver depois se vai ficar lento. Depois vou ver - (Leandra Schneider) coisa.
+1:08
+(Rafael de PauliBaptista) isso. Carregar dentro do todas essas essas - (Leandra Schneider) É. E a (Rafael de PauliBaptista) informações pra - (Leandra Schneider) gente Aham. Nossa, o meu computador aqui é
+1:16
+(Rafael de PauliBaptista) gente não pra gente ver, (Rafael de PauliBaptista) tá? O time de logística quer avaliar possibilidades de se
+1:24
+(Rafael de PauliBaptista) ter uma solução que possibilita identificar risco de - (Leandra Schneider) 1,5. (Rafael de PauliBaptista) atraso nesses pedidos. Então eles querem saber
+1:32
+(Rafael de PauliBaptista) quais pedidos têm risco de atraso, né? O time de logística quer (Rafael de PauliBaptista) avaliar possibilidades de se ter uma solução,
+1:40
+(Rafael de PauliBaptista) alguma solução, né? Uma solução que possibilita identificar risco de - (Leandra Schneider) Sim. (Rafael de PauliBaptista) atraso nesses pedidos a partir da base histórica. Então eles querem identificar
+1:48
+(Rafael de PauliBaptista) eh risco de - (Leandra Schneider) Isso. Então aí o (Leandra Schneider) nosso eu acredito que a nossa primeira atividade é ver se
+1:56
+(Leandra Schneider) toda a base, essas esse meio milhão aí tá com todo (Rafael de PauliBaptista) atraso, - (Leandra Schneider) fazer aquela limpeza normal, né? E aí eu
+2:04
+(Leandra Schneider) acho que a gente tem que ver o tempo previsto e o (Rafael de PauliBaptista) tá? Tá. É, então - (Leandra Schneider) tempo realizado das entregas, que aí
+2:12
+(Rafael de PauliBaptista) é a gente Oi, Fábio. Desculpa. - (Leandra Schneider) o não, e que aí o que ultrapassa (Leandra Schneider) o tempo de permanência, né? lá. Aí é onde
+2:20
+(Leandra Schneider) que a gente de fato vai ter que analisar e ver quais (Leandra Schneider) são as situações. Eu não sei se deve ter alguma
+2:28
+(Leandra Schneider) análise, alguma descrição do motivo dessa desse (Rafael de PauliBaptista) É, - (Leandra Schneider) atraso. Seria, acho que mais ou menos nesse sentido,
+2:36
+(Rafael de PauliBaptista) não sei. Então é, não, você tá se tá certo. Só que eu não eu não sei (Rafael de PauliBaptista) nem como que é a base, sabe? - (Leandra Schneider) né? Eu também não. Eu vou ter que abaixar ela para ver
+2:44
+(Rafael de PauliBaptista) É, tô baixando aqui, mas a - (Leandra Schneider) aqui e dar uma olhada. (Rafael de PauliBaptista) princípio, tá, o que que eu eh entendi, tá? Eu não eu não vi
+2:52
+(Rafael de PauliBaptista) nada, mas eh eu acho que vai ter o (Rafael de PauliBaptista) quê? Eh, vai ter eh N Campos, né?
+3:00
+(Rafael de PauliBaptista) Vamos ver primeiro, senão a gente fica, né? Fica só no (Rafael de PauliBaptista) achismo. Vai, deixa eu aqui abrir
+3:08
+(Rafael de PauliBaptista) aqui. Eu vou, eu vou (Rafael de PauliBaptista) começar a ver. mesmo. Isso nesse nesse final de semana que só posso só
+3:16
+(Rafael de PauliBaptista) tenho tempo no no sábado e domingo - (Leandra Schneider) А (Leandra Schneider) Uhum. É esse final de semana. Bom, a princípio, meu
+3:24
+(Rafael de PauliBaptista) só. Ó, tem descrição dos - (Leandra Schneider) marido vai vai pescar. Eu queria ir passear de moto no sábado, (Leandra Schneider) mas qualquer coisa eu vou no domingo. A gente
+3:32
+(Rafael de PauliBaptista) dados. É, tem morto - (Leandra Schneider) tô pro trabalho primeiro. Aí (Rafael de PauliBaptista) também. - (Leandra Schneider) depois que eu adoeci eu não andei de moto mais. Eu tô louca para sair, andar um
+3:40
+(Rafael de PauliBaptista) Vamos aí. Tem um (Rafael de PauliBaptista) dicionário de dados, - (Leandra Schneider) pouquinho. Uhum.
+3:48
+(Rafael de PauliBaptista) tá? E tem aqui o amostra. A amostra deve ser ser (Rafael de PauliBaptista) todos - (Leandra Schneider) Esse daqui é os
+3:56
+(Rafael de PauliBaptista) vírgula, é os campos. O que que é cada (Rafael de PauliBaptista) campo? Eu tô abrindo aqui só para só para - (Leandra Schneider) campos identificador, cidade,
+4:04
+(Rafael de PauliBaptista) saber. - (Leandra Schneider) destino. Ah, legal, porque a gente pode ver essa questão do tempo de (Leandra Schneider) permanência previsto realizado. E a partir disso a gente
+4:12
+(Leandra Schneider) pode extrair quais são as cidades, né, que tem o destino (Leandra Schneider) ali, quais são as cidades que mais tiveram
+4:20
+(Rafael de PauliBaptista) Então é - (Leandra Schneider) atraso. E aí eu não sei se cabe, (Leandra Schneider) né, uma linha de regressão, alguma coisa assim para prever no futuro
+4:28
+(Rafael de PauliBaptista) então então tava pensando é mais ou menos isso, né? (Rafael de PauliBaptista) Primeiro só é é bem isso que você falou, né? tipo, como é que como é que se
+4:36
+(Rafael de PauliBaptista) colo da da cidade, né? Quais cidades você tem atraso, - (Leandra Schneider) melhoria. Uhum. (Rafael de PauliBaptista) enfim, eh fazer alguma análise primeiro eh
+4:44
+(Rafael de PauliBaptista) exploratória, só para entender, ah, qual que é a na cidades que - (Leandra Schneider) É (Rafael de PauliBaptista) tem mais mais risco, é mais atraso, qual que é - (Leandra Schneider) sim.
+4:52
+(Rafael de PauliBaptista) o, enfim, entender esses campos. Uma coisa que eu (Rafael de PauliBaptista) lembrei, lembra da aula lá de eh - (Leandra Schneider) Uhum.
+5:00
+(Rafael de PauliBaptista) estatística que a da da professora lá em (Rafael de PauliBaptista) R lá, tá? A Rita. - (Leandra Schneider) Hum. Sim. A Rita.
+5:08
+(Rafael de PauliBaptista) Então, eh, ela, eh, deu, eh, regressão linear e (Rafael de PauliBaptista) regressão, eh, regressão linear múltipla e regressão linear
+5:16
+(Rafael de PauliBaptista) simples. E lá eu lembro que ela eh falou (Rafael de PauliBaptista) alguma coisa sobre eh correlação
+5:24
+(Rafael de PauliBaptista) das fixtures, é que fixtures, né, são é os é os é os (Rafael de PauliBaptista) campos. E lá ela fez algum uma - (Leandra Schneider) Sim.
+5:32
+(Rafael de PauliBaptista) explicação bem eh detalhada em - (Leandra Schneider) Uhum. (Rafael de PauliBaptista) relação a tipo, por exemplo, ah, qual que é a relação entre o
+5:40
+(Rafael de PauliBaptista) atraso e o e data de despacho, sei lá, um (Rafael de PauliBaptista) exemplo, não tô falando. Eh, eu tô querendo ver essa
+5:48
+(Rafael de PauliBaptista) aula para relembrar, porque isso aí acho que vai ser usado na na - (Leandra Schneider) Uhum. (Rafael de PauliBaptista) análise exploratória, - (Leandra Schneider) Eh, eh, eu
+5:56
+(Rafael de PauliBaptista) entendeu? - (Leandra Schneider) isso eu também, eu, eu acho que sim, tá? Eu concordo com você, (Leandra Schneider) mas eu acho que o nosso ponto de partida
+6:04
+(Leandra Schneider) aqui é ver a data de entrega (Leandra Schneider) e a data prevista, porque sempre tem a data prevista ali, porque
+6:12
+(Leandra Schneider) aí a gente vai fazer uma soma, a de entrega e a prevista uma pela (Leandra Schneider) outra, né? porque tem ali. E aí a
+6:20
+(Rafael de PauliBaptista) Так. - (Leandra Schneider) partir daí que a gente vai identificar qual (Leandra Schneider) que quais são quais as cidades, eh
+6:28
+(Leandra Schneider) qual a questão do do pagamento do pedido. E aí eu acho que é (Leandra Schneider) onde a gente vai encontrar as variáveis, porque se a gente quer, o
+6:36
+(Leandra Schneider) objetivo é entender por que tem os atrasos e quais são (Leandra Schneider) os atrasos, eu acho que vai aí o tempo
+6:44
+(Leandra Schneider) de permanência previsto e realizado. E aí (Leandra Schneider) saber quais são, quantos são e aí a gente vai ver
+6:52
+(Leandra Schneider) porque que em tal cidade tem mais dificuldade do que as (Rafael de PauliBaptista) É o é o foco. É isso aí - (Leandra Schneider) outras. Eh, o
+7:00
+(Leandra Schneider) professor, né, o professor ele falou assim que (Leandra Schneider) não tem problema a gente jogar assim aqui no chat e perguntar
+7:08
+(Leandra Schneider) uma sugestão de análise. A gente também (Leandra Schneider) pode ter um conhecimento por aí.
+7:16
+(Leandra Schneider) Eu tô falando, Rafael, por mim, que eu sou super leiga, (Rafael de PauliBaptista) mesmo. Não, mas assim, eh, mas assim, eu - (Leandra Schneider) tá?
+7:24
+(Rafael de PauliBaptista) acho, né, que é o caminho, né, é isso mesmo, né, primeiro, né, então (Rafael de PauliBaptista) primeiro é fazer essa entender os dados. - (Leandra Schneider) Eh, olha aqui, ó. Tenho aqui, ó. Isso aqui tem,
+7:32
+(Leandra Schneider) ó, previsão de entrega pro cliente, entendeu? Aqui (Leandra Schneider) já é a prevista de entrega. E aí a gente pode
+7:40
+(Leandra Schneider) procurar aqui quais são dos campos a data de (Rafael de PauliBaptista) Oi, tá? Calma aí. Deixa, deixa eu, deixa eu entender aqui - (Leandra Schneider) entrega.
+7:48
+(Rafael de PauliBaptista) eh os campos que não é que eu nem vi também direito. Tem o código (Rafael de PauliBaptista) pedido que não vai ser ser para nada, né? Isso aí a gente tem - (Leandra Schneider) A
+7:56
+(Rafael de PauliBaptista) novo. Cidade - (Leandra Schneider) princípio, só pela (Rafael de PauliBaptista) é quantidade de é tipo quantos quantas unhas tem - (Leandra Schneider) quantidade.
+8:04
+(Rafael de PauliBaptista) aqui? É, pode ser. Cidade - (Leandra Schneider) Uhum. (Rafael de PauliBaptista) destinatário, UF - (Leandra Schneider) Isso.
+8:12
+(Rafael de PauliBaptista) despacho, hora de despacho, data da entrega, pedido da - (Leandra Schneider) Legal. Uhum. (Rafael de PauliBaptista) entrega. Tá? Isso aqui é da dos de entrega, tá? Data
+8:20
+(Rafael de PauliBaptista) prevista de entrega, data criação. Data de (Rafael de PauliBaptista) criação do pedido. Tá no no pedido do foi
+8:28
+(Rafael de PauliBaptista) feito. - (Leandra Schneider) Uhum. Olha que legal, quando o pedido foi feito, a gente pode (Rafael de PauliBaptista) Hã. - (Leandra Schneider) ver duas coisas, né? quando o tempo
+8:36
+(Leandra Schneider) de quando o pedido foi feito e quando que o pedido (Rafael de PauliBaptista) despachado. - (Leandra Schneider) realmente de fato foi eh
+8:44
+(Leandra Schneider) despachado ou dado sequência para paraa questão (Leandra Schneider) da entrega. Porque assim, eu fazer a compra hoje, o
+8:52
+(Leandra Schneider) pedido agora, eh, no (Leandra Schneider) 8:47, pode ser que ele vai reconhecer isso só amanhã de
+9:00
+(Leandra Schneider) manhã. Olha o tempo de atraso se não for (Rafael de PauliBaptista) tá falando. Tá, entendi. Calma aí. Tá, - (Leandra Schneider) automatizado, né?
+9:08
+(Rafael de PauliBaptista) mas nessa é que o atraso pode tá (Rafael de PauliBaptista) ou no despacho, né? Que nem você falou, tipo, ah, eu paguei - (Leandra Schneider) Aí
+9:16
+(Rafael de PauliBaptista) agora, mas daí - (Leandra Schneider) ou no reconhecimento da compra ou durante o (Rafael de PauliBaptista) eh porque eu posso eh pagar agora e despachar só - (Leandra Schneider) transporte.
+9:24
+(Rafael de PauliBaptista) daqui é 5 dias, tipo, já tá tudo trazado - (Leandra Schneider) Isso. E e (Leandra Schneider) assim, será que eu pago agora? Ele reconhece agora
+9:32
+(Rafael de PauliBaptista) já. - (Leandra Schneider) essa compra? Eu acho que deve ter alguma coisa relacionada, né? Cartão de (Leandra Schneider) crédito ou Pix. Vamos considerar que é Pix, que é pagamento imediato e reconhecimento
+9:40
+(Leandra Schneider) imediato. Será que agora ele já começa a dar a (Leandra Schneider) tratativa ou vai gerar
+9:48
+(Leandra Schneider) amanhã, 8 horas da manhã que ele vai reconhecer essa compra e vai dar (Leandra Schneider) andamento no pedido? Eu acho que essas coisas também pode estar
+9:56
+(Rafael de PauliBaptista) É isso aí. A gente vai descobrir na - (Leandra Schneider) relacionada, (Rafael de PauliBaptista) análise exploratória. Mas tá, mas tá, é, tá - (Leandra Schneider) sabe? E tô tô adorando isso
+10:04
+(Rafael de PauliBaptista) certo. Não, eu - (Leandra Schneider) aqui. Eu não sei se eu tô viajando, tá? Ô, (Rafael de PauliBaptista) gosto, eu me sinto tipo Sherlock Home assim, sabe? Tipo,
+10:12
+(Rafael de PauliBaptista) a gente vai entendendo. É, eu - (Leandra Schneider) Rafael, (Rafael de PauliBaptista) gosto, tá? Eh, data, data, data de - (Leandra Schneider) investigativo.
+10:20
+(Rafael de PauliBaptista) pagamento, tá? Beleza. Eh, - (Leandra Schneider) Aham. Sim. Outro ponto, deixa (Rafael de PauliBaptista) Fleg, existe. Oi, desculpa, pode falar. - (Leandra Schneider) eu eu deixa se eu te atrapalhar, você vai falando: "Calma,
+10:28
+(Leandra Schneider) L, não terminei. Olha que legal, eu fiz a compra (Leandra Schneider) agora, paguei no Pix para ser reconhecido, mas se eu fiz
+10:36
+(Leandra Schneider) a compra agora e pedir para gerar um boleto, eu tenho tipo (Rafael de PauliBaptista) É que - (Leandra Schneider) tal três dias para
+10:44
+(Rafael de PauliBaptista) tá que eu não sei aqui, aqui não fala, né? Não faz, mas que não - (Leandra Schneider) reconhecer. Não faz sentido se tem, (Rafael de PauliBaptista) fala. Mas é, tem eh caso que que - (Leandra Schneider) né? Uhum. Mas
+10:52
+(Rafael de PauliBaptista) é a o prazo de entrega conta a partir (Rafael de PauliBaptista) da do é do pagamento - (Leandra Schneider) a do
+11:00
+(Rafael de PauliBaptista) tipo comprovado, - (Leandra Schneider) pagamento. Uhum. Mas eu acho que aqui a gente vai conseguir (Leandra Schneider) ver qual que é a data da compra e a data
+11:08
+(Rafael de PauliBaptista) sabe? - (Leandra Schneider) do, né, a data e hora do pedido e a data e hora do (Leandra Schneider) pagamento. Porque eu fazer um pedido agora às
+11:16
+(Leandra Schneider) 20:50 não quer dizer que eu finalizei esse (Rafael de PauliBaptista) Não é não, mas a - (Leandra Schneider) pedido. Eu só vou finalizar depois o
+11:24
+(Rafael de PauliBaptista) gente não sabe quando que é começa a contar a (Rafael de PauliBaptista) a o período de entrega porque tipo assim, ó,
+11:32
+(Rafael de PauliBaptista) tenho três dias úteis para, né, para entregar, por exemplo, né, um dia útil, - (Leandra Schneider) pagamento. (Rafael de PauliBaptista) né, para entregar. Então daí na que nem você falou do eh boleto,
+11:40
+(Rafael de PauliBaptista) né? Eh, eu fechei o pedido hoje, o boleto tem vencimento daqui três - (Leandra Schneider) Uhum. (Rafael de PauliBaptista) dias. Se eu pagar só no terceiro dia,
+11:48
+(Rafael de PauliBaptista) a o o período da entrega começa a a (Rafael de PauliBaptista) ser contado a partir do terceiro dia, né? É isso que
+11:56
+(Rafael de PauliBaptista) então então é isso é isso que a gente não sabe, né? - (Leandra Schneider) Sim. Vai (Rafael de PauliBaptista) Eh, porque a a - (Leandra Schneider) procurar.
+12:04
+(Rafael de PauliBaptista) nossas coisas é tudo assim, né? Eu eu acho isso é uma (Rafael de PauliBaptista) premissa. A gente pode tomar isso como premissa, mas a gente vai analisar - (Leandra Schneider) Uhum.
+12:12
+(Rafael de PauliBaptista) com a com análise eh - (Leandra Schneider) Sim. (Rafael de PauliBaptista) exploratória, tá? Então, - (Leandra Schneider) Olha que legal aqui, ó. Existe
+12:20
+(Rafael de PauliBaptista) ó, indicador de ocorrência da indicador de ocorrências (Rafael de PauliBaptista) de - (Leandra Schneider) ocorrências. Aham. Porque a na capital pode ser
+12:28
+(Rafael de PauliBaptista) entrega. - (Leandra Schneider) diferente, no interior pode ser diferente. Região metropolitana, (Leandra Schneider) quem será que tem prioridade? A capital, região
+12:36
+(Leandra Schneider) metropolitana ou interior? Entendeu? A gente também pode ver (Rafael de PauliBaptista) Não tá. Eh, a praça Mas que que é, eh, colega, existem
+12:44
+(Rafael de PauliBaptista) ocorrências, indicador de de ocorrências de (Rafael de PauliBaptista) entrega. Ah, será que
+12:52
+(Rafael de PauliBaptista) é já correu atraso - (Leandra Schneider) isso. Quem é a prioridade de entrega? Não, eu acho que (Rafael de PauliBaptista) já? - (Leandra Schneider) aqui é a prioridade de entrega. E aí a gente vai ver
+13:00
+(Leandra Schneider) na capital a entrega é mais eficiente do que na região (Leandra Schneider) metropolitana e do que no interior. Aí aqui a gente vai buscar
+13:08
+(Leandra Schneider) onde que é mais eficiente a questão da taxa de entrega, onde que tem (Rafael de PauliBaptista) Não, mas - (Leandra Schneider) mais atraso. Eu acredito que no interior
+13:16
+(Rafael de PauliBaptista) eh calma - (Leandra Schneider) tenha mais atraso do que na capital por questão de (Rafael de PauliBaptista) aí, tá? Mas
+13:24
+(Rafael de PauliBaptista) aqui, ó, essa flag não e sim. Isso aqui, né, que eu tô com - (Leandra Schneider) logística. (Rafael de PauliBaptista) dúvida, né? Esse esse campo aqui, - (Leandra Schneider) Existe ocorrência, tá? E o
+13:32
+(Rafael de PauliBaptista) ó. Tá? - (Leandra Schneider) sim aí, será que então aí será que no (Leandra Schneider) sim a gente vai saber se é capital, região metropolitana? A gente
+13:40
+(Leandra Schneider) vai fazer o filtro do sim primeiro e aí a gente vai ver o (Rafael de PauliBaptista) Não. Não, a minha pergunta é - (Leandra Schneider) percentual em cima dessas
+13:48
+(Rafael de PauliBaptista) é outra. Eh, o que que é? Então, eu não entendi (Rafael de PauliBaptista) o significado dessa dessa dessa coluna. É isso que eu não
+13:56
+(Leandra Schneider) regiões. Eu entendi que ele pergunta assim pra gente, (Leandra Schneider) eh, quais a
+14:04
+(Leandra Schneider) qual a região que mais tem (Leandra Schneider) intercorrência no atraso dessa entrega? A gente vai procurar os atrasos,
+14:12
+(Rafael de PauliBaptista) entendi. Tá. Então esse campo quer dizer se tem atraso ou não. É - (Leandra Schneider) certo? Aí a gente (Rafael de PauliBaptista) isso não. Beleza. - (Leandra Schneider) isso. E aí nesse campo ele vai falar aqui para
+14:20
+(Rafael de PauliBaptista) Tá. - (Leandra Schneider) mim, sim. Aí a gente vai procurar depois o sim. Aí do (Leandra Schneider) lado aqui vai falar esse sim tá onde? O percentual é
+14:28
+(Leandra Schneider) mais na capital, na região metropolitana ou no (Rafael de PauliBaptista) Tá. - (Leandra Schneider) interior? Eu eu entendi
+14:36
+(Rafael de PauliBaptista) Eh, tá, tá, tá, tá. Então, (Rafael de PauliBaptista) é, é, é tipo da praça, tipo da praça da entrega.
+14:44
+(Rafael de PauliBaptista) entrega eh des unidade, classificação da - (Leandra Schneider) isso. Isso. (Rafael de PauliBaptista) da unidade de - (Leandra Schneider) Aham.
+14:52
+(Rafael de PauliBaptista) negócio. Eu não sei que - (Leandra Schneider) Monomul. Ixe. Agora que (Leandra Schneider) que eu acho que a gente vai ter que pesquisar no Google o que que significa
+15:00
+(Rafael de PauliBaptista) depois, na verdade, eu perguntava on para professor primeiro, né? Ele que é o que é que (Rafael de PauliBaptista) é da área de negócio, a gente - (Leandra Schneider) isso. É, será que o o
+15:08
+(Leandra Schneider) mono ou multi é uma entrega e multi é mais que (Leandra Schneider) duas entregas? Ó, eu tô surtando aqui,
+15:16
+(Rafael de PauliBaptista) tira, tá? Outra coisa, tá? Não sei. Vamos, vamos ver, tá? Eh, descrição da - (Leandra Schneider) tá? (Rafael de PauliBaptista) origem, centro, centro de de disposição da
+15:24
+(Rafael de PauliBaptista) origem, dias até entrega (Rafael de PauliBaptista) e performance da entrega também, né? Se atrasou ou não, né?
+15:32
+(Rafael de PauliBaptista) Eh, calmaí. Tem, é, tá cidade destinatária, né? Para onde (Rafael de PauliBaptista) vai? Tem cidade de de destino aqui? Não tem, - (Leandra Schneider) Uhum. Uhum.
+15:40
+(Rafael de PauliBaptista) né? Tem - (Leandra Schneider) Procura lá no segundo campo lá. (Rafael de PauliBaptista) cidade. Não, mas é não tá aqui, né? Ó, é código - (Leandra Schneider) Volta lá no
+15:48
+(Rafael de PauliBaptista) cidade de destino. Deixa, deixa, deixa, deixa aumentar aqui para (Leandra Schneider) segundo. Não, eu entendi.
+15:56
+(Rafael de PauliBaptista) mim. - (Leandra Schneider) Identificador do pedido. Cidade destinatário do pedido. Tá lá na (Leandra Schneider) planilha nesse campo não tem nome das
+16:04
+(Rafael de PauliBaptista) Não. Então, eh, aqui só o é - (Leandra Schneider) cidades. Ah, eu acho que ele tá relacion acho que (Rafael de PauliBaptista) só é só o - (Leandra Schneider) ele tá relacionado. É, mas eu acho que ele tá relacionado
+16:12
+(Leandra Schneider) ao tipo da praça. Se lá na nossa planilha não tiver o nome (Leandra Schneider) das cidades, a gente vai ter vai
+16:20
+(Leandra Schneider) entender que é capital. Aqui tem, (Rafael de PauliBaptista) destino. Não, mas não tem - (Leandra Schneider) ó, Campinas, Campina Grande do
+16:28
+(Rafael de PauliBaptista) eh origem. É isso que eu tô que eu tô é que eu tô perguntando. - (Leandra Schneider) Sul. (Rafael de PauliBaptista) Tipo, não tem destino e origem. saiu da cidade A e foi pra
+16:36
+(Rafael de PauliBaptista) cidade B. Não tem, né? Isso que - (Leandra Schneider) Perdi. É, a princípio se eu tenho destinatário, não tô (Leandra Schneider) falando que ele tá saindo tipo de São Paulo vindo para
+16:44
+(Rafael de PauliBaptista) é talento para diabo aqui. (Rafael de PauliBaptista) Travou. - (Leandra Schneider) Curitiba. Já ai mudar
+16:52
+(Leandra Schneider) código do (Rafael de PauliBaptista) Tá travando aqui. Tem muito - (Leandra Schneider) pedido não, tudo bem.
+17:00
+(Leandra Schneider) Eh, transport. Ah, olha que legal. Dá pra gente ver também (Rafael de PauliBaptista) aqui. O mega - (Leandra Schneider) quais são as transportadoras que mais são eficiente,
+17:08
+(Rafael de PauliBaptista) atraso. - (Leandra Schneider) eh, ou que são mais eficiente, que tem maior atraso, que é de um a quatro, pelo que (Leandra Schneider) eu o que eu tá podendo ver aqui, a gente também,
+17:16
+(Leandra Schneider) eu acho que tem que botar um, eu não sei se você (Leandra Schneider) concorda, um teto limite, tipo, eu vou
+17:24
+(Leandra Schneider) considerar atraso de dia ou eu vou considerar (Rafael de PauliBaptista) Não, isso aí acho - (Leandra Schneider) atraso de horas.
+17:32
+(Rafael de PauliBaptista) que isso aí a gente não é precisa se preocupar porque já tem um indicador ali. A (Rafael de PauliBaptista) gente vai usar esse indicador aqui, ó. TP performance - (Leandra Schneider) Sentou. Aham.
+17:40
+(Rafael de PauliBaptista) entrega. Se for entrega dentro do prazo ou não, já tá - (Leandra Schneider) Per. Ah, tá. Tem a questão (Leandra Schneider) de horas também, porque a Mercado
+17:48
+(Leandra Schneider) Livre ela manda mensagem para você e fala: "Dentro de 15 minutos (Leandra Schneider) você vai se receber sua encomenda e aí você pode ficar esperando no portão
+17:56
+(Rafael de PauliBaptista) pronto. Mexega. - (Leandra Schneider) que ele tá chegando." Aham. É muito legal (Rafael de PauliBaptista) Eh, uma coisa que assim e eu acho que
+18:04
+(Rafael de PauliBaptista) o trabalho tem que ser dividido e em duas partes. É, primeiro isso, né, que (Rafael de PauliBaptista) essa análise exploratória que a gente, né, tá fazendo e tá - (Leandra Schneider) isso.
+18:12
+(Rafael de PauliBaptista) fazendo eh questionamentos, né, ah, qual que é a cidade? tem alguma - (Leandra Schneider) Uhum. É para (Rafael de PauliBaptista) cidade. Então, mas depois a gente vai ter que que
+18:20
+(Rafael de PauliBaptista) eh treinar eh algum modelo (Rafael de PauliBaptista) para prever se uma entrega foi vai n se - (Leandra Schneider) reconhecer.
+18:28
+(Rafael de PauliBaptista) uma n se uma entrega vai atrasar ou não. É no sentido (Rafael de PauliBaptista) assim, né? primeiro a entender como que é hoje
+18:36
+(Rafael de PauliBaptista) para poder eh no relatório que a gente a entregar, né, pro (Rafael de PauliBaptista) professor falar quais são as as os
+18:44
+(Rafael de PauliBaptista) pontos que é pecam mais falar assim, ó, a gente tem que ter atenção com a (Rafael de PauliBaptista) cidade de de Brasília, porque Brasília é que é que
+18:52
+(Rafael de PauliBaptista) sofre mais atraso ou eh todas as - (Leandra Schneider) Ко (Rafael de PauliBaptista) cidades é do interior eh a taxa de atraso
+19:00
+(Rafael de PauliBaptista) é 30% maior que da capital. Eh, entende como então (Rafael de PauliBaptista) essa essa análise exploratória? Daí o daí um - (Leandra Schneider) Sim, sim,
+19:08
+(Rafael de PauliBaptista) segundo ponto é fazer um treinamento é de um modelo para poder (Rafael de PauliBaptista) prever se alguma entrega vai atrasar ou
+19:16
+(Rafael de PauliBaptista) não. - (Leandra Schneider) sim. Eh, eu acho que a (Rafael de PauliBaptista) Será que é isso? É, é isso. - (Leandra Schneider) primeira eu acho que sim, eu acho que sim, tá?
+19:24
+(Rafael de PauliBaptista) Tá. - (Leandra Schneider) assim, mas eu acho que o primeiro momento é a gente (Leandra Schneider) buscar eh dentro eh eu tô deitadona aqui,
+19:32
+(Leandra Schneider) tá? Não vai reparar não. Eh, eu acho que o primeiro momento é a (Leandra Schneider) gente entender de to de de todas essas
+19:40
+(Leandra Schneider) compras, quem que ultrapassou o tempo de (Rafael de PauliBaptista) Só filtrar para - (Leandra Schneider) permanência da data prevista para entrega. E
+19:48
+(Rafael de PauliBaptista) esse campo aqui. - (Leandra Schneider) aí, isso. E aí, a partir daí, o (Leandra Schneider) que ficou fora, que não ficou dentro da taxa de
+19:56
+(Leandra Schneider) entregue, que a gente vai treinar o modelo. Não tem por eu treinar o modelo com (Leandra Schneider) tudo se grande parte teve sucesso na
+20:04
+(Rafael de PauliBaptista) Não, a gente não sabe. A gente não fez análise (Rafael de PauliBaptista) eh eh exploratória. Não sei quanto quanto que a percentual é de
+20:12
+(Rafael de PauliBaptista) atraso. Deixa eu - (Leandra Schneider) entrega, não? Então, mas eu acho que o o (Leandra Schneider) o primeiro ponto aqui é a gente separar a quantidade
+20:20
+(Leandra Schneider) de o que tá fora e o que tá dentro. E o que tá fora a (Rafael de PauliBaptista) ver. - (Leandra Schneider) gente vai trabalhar em cima do que tá fora, porque o nosso objetivo é encontrar e
+20:28
+(Leandra Schneider) propor uma solução para que tá fora, certo? Então, da (Leandra Schneider) do meio milhão lá, vamos supor que 200.000 tá
+20:36
+(Leandra Schneider) dentro, a gente vai trabalhar com as 300.000. Você não acha que seria (Rafael de PauliBaptista) ID é identificar o porque que é não - (Leandra Schneider) isso? É, não
+20:44
+(Leandra Schneider) faz, não faz sentido eu trabalhar só se as meio milhão lá, as (Leandra Schneider) 500.000, Ro, tá tudo fora. A gente vai trabalhar com tudo. Mas eu acho que o
+20:52
+(Leandra Schneider) primeiro momento aqui é identificar quem tá fora do prazo e trabalhar (Leandra Schneider) com todas as variáveis ali, só com esse
+21:00
+(Rafael de PauliBaptista) M. Tá. (Rafael de PauliBaptista) É, é só, é só colocando a mão na massa mesmo. - (Leandra Schneider) público.
+21:08
+(Rafael de PauliBaptista) Eh, tem um negócio, - (Leandra Schneider) É, eu gostei. Eu achei eu achei bacana (Leandra Schneider) esse esse case aí que você escolheu,
+21:16
+(Rafael de PauliBaptista) ai eu tava pensando eh outra coisa também, - (Leandra Schneider) hein? (Rafael de PauliBaptista) eh, data de eh atraso, a gente tem a data
+21:24
+(Rafael de PauliBaptista) de a data de criação, a data (Rafael de PauliBaptista) de é de despacho, né, a gente, né, tem tem datas,
+21:32
+(Rafael de PauliBaptista) beleza? Tá? Você acha que (Rafael de PauliBaptista) eh periga é atrasar se eu fazer eh um pedido
+21:40
+(Rafael de PauliBaptista) hoje, comprar hoje? Tem tem tem mais chance - (Leandra Schneider) Угуm. (Rafael de PauliBaptista) de eh ser entregue no - (Leandra Schneider) Угуm.
+21:48
+(Rafael de PauliBaptista) prazo ou se eu comprar no dia 24 de dezembro, será que vai (Rafael de PauliBaptista) vir no - (Leandra Schneider) Não, eu acho que o eu acho
+21:56
+(Rafael de PauliBaptista) prazo? É, então isso - (Leandra Schneider) que essas épocas festivas a (Leandra Schneider) quantidade é maior e aí pode ter o risco de
+22:04
+(Rafael de PauliBaptista) acho, então acho que eu vou eu vou acrescentar um campo. - (Leandra Schneider) atraso, mas a gente pode separar por esses a gente pode (Leandra Schneider) separar por esses tempos, por essa, por esses períodos festivos
+22:12
+(Leandra Schneider) também, né? Dia das mães, Natal, essas (Leandra Schneider) coisas. Mas eu acredito que a data da
+22:20
+(Leandra Schneider) criação do pedido, ela tem uma interferência (Leandra Schneider) muito grande com a data do pagamento do pedido. Eu posso
+22:28
+(Leandra Schneider) pedir agora e pagar, por exemplo, o boleto daqui 3 (Rafael de PauliBaptista) Tá aí. - (Leandra Schneider) dias. Ela tá muito relacionado o
+22:36
+(Rafael de PauliBaptista) Ah, - (Leandra Schneider) pedido com a data do (Rafael de PauliBaptista) mas daí tá e daí isso é impacto na
+22:44
+(Rafael de PauliBaptista) trava fala. É, mas daí - (Leandra Schneider) pagamento. Eu acredito que sim, porque ele só (Leandra Schneider) vai despachar para mim, ele só vai despachar para mim no
+22:52
+(Rafael de PauliBaptista) aquela, tá? E o e o prazo eh é (Rafael de PauliBaptista) da entrega tem que ser é contado eh a partir
+23:00
+(Rafael de PauliBaptista) de de qual stamp? Ah, - (Leandra Schneider) pagamento do pagamento. Eu acho que dou (Rafael de PauliBaptista) então a gente leva isso na como - (Leandra Schneider) pagamento. Isso
+23:08
+(Leandra Schneider) eu acho que é a partir do pagamento, porque o Rafael, (Leandra Schneider) eu posso fazer 1 milhão de compra agora e pedir para gerar
+23:16
+(Leandra Schneider) boleto. Ninguém vai preparar o meu pedido se eu não fizer o (Leandra Schneider) pagamento. Só vão preparar o meu pedido após o
+23:24
+(Rafael de PauliBaptista) premissa. Tá. Então, sim. - (Leandra Schneider) pagamento. Eu acredito muito (Rafael de PauliBaptista) O, hein? Eh, já tá quase
+23:32
+(Rafael de PauliBaptista) acabando. Vamos fazer assim, - (Leandra Schneider) nisso. (Rafael de PauliBaptista) eh, eu no sábado eu vou eu vou começar a fazer
+23:40
+(Rafael de PauliBaptista) essa análise exploratória inicial, ver se tem - (Leandra Schneider) Aham. (Rafael de PauliBaptista) campo e faltante, eh, ver se eu
+23:48
+(Rafael de PauliBaptista) consigo trabalhar, né, com meio milhão na na na minha (Rafael de PauliBaptista) máquina. Vai que fica lento - (Leandra Schneider) Posso tentar também no
+23:56
+(Rafael de PauliBaptista) se Não. Então, mas daí ia falar para você, (Rafael de PauliBaptista) você não cons que a
+24:04
+(Rafael de PauliBaptista) professora Rita deu em relação a essa questão (Rafael de PauliBaptista) de eu acho que é válido, acho que a gente vai usar, sabe? - (Leandra Schneider) meu Sim.
+24:12
+(Rafael de PauliBaptista) Eh, correlação entre as variáveis. Eu lembro que ela deu, eu não sei se eu (Rafael de PauliBaptista) tô tô falando é besteira, mas eu lembro que ela que ela deu alguma
+24:20
+(Rafael de PauliBaptista) coisa, sabe, em relação a - (Leandra Schneider) Tá, eu vou procurar então. (Rafael de PauliBaptista) isso. Calma aí, deixa eu, deixa eu fazer um negócio aqui - (Leandra Schneider) Eu vou procurar saber
+24:28
+(Rafael de PauliBaptista) bem bem rápido. Daí a gente (Rafael de PauliBaptista) pode, eu acho que vai dar, eu acho que para tempo, acho que
+24:36
+(Rafael de PauliBaptista) a gente vai ter tempo adequado, né, para fazer esse esse (Rafael de PauliBaptista) esse trabalho, sabe? Não vai ser é - (Leandra Schneider) então. Aham.
+24:44
+(Rafael de PauliBaptista) corrido. Eh, calma - (Leandra Schneider) Não, tranquilo. Você vai eh você quer mexer (Leandra Schneider) no Tá. Você falou que vai ver isso aí. Você não sabes se é sábado ou domingo,
+24:52
+(Rafael de PauliBaptista) aí. É, não, eu vou fazer isso no sábado. Essa - (Leandra Schneider) né? (Rafael de PauliBaptista) análise e eh exploratória. É que eu tava vendo - (Leandra Schneider) Tá.
+25:00
+(Rafael de PauliBaptista) eh um negócio que era, (Rafael de PauliBaptista) qual que era o nome da da matéria? Métodos. - (Leandra Schneider) Uhum. Da professora
+25:08
+(Rafael de PauliBaptista) Não é, não é, não é, não é esses, esses esses - (Leandra Schneider) Rita. (Rafael de PauliBaptista) três aqui, né? Não - (Leandra Schneider) Não, não. Eu acho que a dela é
+25:16
+(Rafael de PauliBaptista) é, não - (Leandra Schneider) da parte da semântica, não (Rafael de PauliBaptista) era a estatística. Tô falando é da matéria de - (Leandra Schneider) é? Não,
+25:24
+(Leandra Schneider) estatística. Ah, não. Então não era a Rita, porque estatística foi outra (Rafael de PauliBaptista) estatística. Não, que eu tava - (Leandra Schneider) pessoa. A Rita deu
+25:32
+(Rafael de PauliBaptista) falando é que é que assim, que que eu tenho é que eu é que eu pago, né, o chat (Rafael de PauliBaptista) GPT, né? Daí o que que eu faço? Eh, a - (Leandra Schneider) semântica. Aham.
+25:40
+(Rafael de PauliBaptista) gente eh quando a gente paga, a gente consegue criar agente. Que que é (Rafael de PauliBaptista) um agente, né? Gente é um é um
+25:48
+(Rafael de PauliBaptista) é um GPT (Rafael de PauliBaptista) eh tipo mega power, conhecedor, né, de um
+25:56
+(Rafael de PauliBaptista) assunto. Daí o que que eu faço? Eu pego todas as as (Rafael de PauliBaptista) as traduções, os as como que - (Leandra Schneider) Uhum.
+26:04
+(Rafael de PauliBaptista) é? É. E daí eu alimento é um GPT, - (Leandra Schneider) As transcrições as matérias. (Rafael de PauliBaptista) daí eu faço todas as perguntas, né, pro GPT e funciona
+26:12
+(Rafael de PauliBaptista) bem. Daí eu tava - (Leandra Schneider) Olha que legal. Quanto que você (Rafael de PauliBaptista) querendo R$ - (Leandra Schneider) paga? Ah, eu pago um safado lá meio
+26:20
+(Rafael de PauliBaptista) 100. Ah, não, mas daí é free, - (Leandra Schneider) comunitário, sabe? (Leandra Schneider) E não, eu pago. É tipo assim, é uma conta
+26:28
+(Rafael de PauliBaptista) né? - (Leandra Schneider) que várias pessoas tem ali. Então, tipo assim, eu não (Leandra Schneider) posso ficar colocando nada de muito dado
+26:36
+(Leandra Schneider) importante, dados pessoais, mas (Leandra Schneider) eh baratinho e eu consigo fazer tudo. Só que eu não sei
+26:44
+(Rafael de PauliBaptista) Isso é bem legal. Daí - (Leandra Schneider) utilizar essas coisas que nem você (Rafael de PauliBaptista) é que eu faço? Eu ponho todas aqui, ó, as
+26:52
+(Rafael de PauliBaptista) as transcrições das das aulas e os e os - (Leandra Schneider) sabe. (Rafael de PauliBaptista) e os slides. Daí eu fico até fazendo do é - (Leandra Schneider) Aham. Que
+27:00
+(Rafael de PauliBaptista) pergunta da ele meio que tipo em vez e eu eu em vez de (Rafael de PauliBaptista) ver todas as aulas eu pergunto, né, para ele, ele meio que me - (Leandra Schneider) massa.
+27:08
+(Rafael de PauliBaptista) responde, né, daí fala assim, ó, só para confirmar, me fala eh - (Leandra Schneider) Uhum. (Rafael de PauliBaptista) qual vídeo e qual minuto, né, que o professor falou isso. Daí
+27:16
+(Rafael de PauliBaptista) eu eu reviso, sabe? - (Leandra Schneider) Aha, que (Leandra Schneider) massa. Adorei. Eu tô pensando em pagar esse negócio do chat aí para eu
+27:24
+(Leandra Schneider) ter só para mim o meu (Rafael de PauliBaptista) is aqui é de mineração de de dados. Eh, quero saber
+27:32
+(Rafael de PauliBaptista) em qual momento o professor eh (Rafael de PauliBaptista) eh conversou
+27:40
+(Rafael de PauliBaptista) sobre árvore de (Rafael de PauliBaptista) decisivão. Exatamente. Ó, fogou - (Leandra Schneider) espaço. Aí não entra aí a questão da logística
+27:52
+(Leandra Schneider) reversa, da árvore de decisão, do daquela (Rafael de PauliBaptista) agora. É, ó. É, - (Leandra Schneider) não sei o que
+28:00
+(Rafael de PauliBaptista) ó, ele fala ali, ó. Vou fazer isso. É, acho que - (Leandra Schneider) cruzada. (Rafael de PauliBaptista) para, não sei, é paraa estatística, sei lá. Não tava procuro,
+28:08
+(Rafael de PauliBaptista) mas - (Leandra Schneider) Aham. Eu acho que é importante a gente pegar aquelas (Leandra Schneider) variáveis ali também, Rafael. por mais que eu e você tenha discutido
+28:16
+(Rafael de PauliBaptista) enfim. - (Leandra Schneider) o que que a gente pode investigar e perguntar, porque eu acho (Leandra Schneider) que eu e você tivemos uns insites bons aqui para para
+28:24
+(Leandra Schneider) análise, entendeu? Eh, eu acho que vale a pena pegar isso aqui (Leandra Schneider) e perguntar o que que a gente poderia fazer em cima desses dados
+28:32
+(Rafael de PauliBaptista) falando no chat GPT lá, - (Leandra Schneider) aqui e colocar (Leandra Schneider) isso e colocar o que o professor pediu lá no
+28:40
+(Rafael de PauliBaptista) né? É, ele ele dá - (Leandra Schneider) trabalho, entendeu? Eu, o professor falou isso (Rafael de PauliBaptista) um pontapé inicial. - (Leandra Schneider) em aula, que isso, o professor falou isso em aula, que
+28:48
+(Leandra Schneider) a gente pode fazer isso, entendeu? Isso não quer dizer que o (Leandra Schneider) chat vai fazer todo o trabalho, mas eu acho que é um direcionamento. Eu acho que a nossa
+28:56
+(Leandra Schneider) discussão de agora eh gerou bastante (Rafael de PauliBaptista) Não pode fazer sim. Acho - (Leandra Schneider) perguntas. O que que a gente quer ver, né,
+29:04
+(Rafael de PauliBaptista) que tá gravando sim. Eh, então tá. - (Leandra Schneider) para ver se bate. (Rafael de PauliBaptista) Acho que é isso. Então vamos combinar assim. Eh, eu faço análise - (Leandra Schneider) Uhum.
+29:12
+(Rafael de PauliBaptista) eh eh exploratória (Rafael de PauliBaptista) inicial e eu vi algum algum - (Leandra Schneider) Uhum.
+29:20
+(Rafael de PauliBaptista) barulhozinho. Será que o professor (Rafael de PauliBaptista) tem? Tinha tinha ouvido um um barulho. Acho que
+29:28
+(Rafael de PauliBaptista) acho que imaginei coisa. Eh, vamos (Rafael de PauliBaptista) fazer isso. Então, eu vou fazer a análise exploratória inicial no
+29:36
+(Rafael de PauliBaptista) no sábado e você tenta dar uma olhadinha em nas (Rafael de PauliBaptista) aulas de estatística que eu tenho - (Leandra Schneider) Oi, tá? O que que a gente
+29:44
+(Rafael de PauliBaptista) quase é porque eu acho que tenho quase quase certeza que - (Leandra Schneider) pode usar? (Rafael de PauliBaptista) ela ela comentou, sabe, aluma coisa, tipo,
+29:52
+(Rafael de PauliBaptista) eh, como eh calcular que uma (Rafael de PauliBaptista) variável tem relação com outra. Tem, tinha um, - (Leandra Schneider) com
+30:00
+(Rafael de PauliBaptista) não tinha essa. Eu acho que ela falou um - (Leandra Schneider) outra. Aham. E eu acho que a gente pode fazer em (Leandra Schneider) relação da questão da variável uma com a outra, a
+30:08
+(Leandra Schneider) questão da data do pedido, tá? (Leandra Schneider) com do pagamento e relação às
+30:16
+(Leandra Schneider) cidades que não digo cidade, como que é o (Rafael de PauliBaptista) assim a praça - (Leandra Schneider) nome daquele lá que é interior, capital e região
+30:24
+(Rafael de PauliBaptista) lá. - (Leandra Schneider) metropolitana. Isso eu acho que isso é uma questão que a gente pode estar (Leandra Schneider) trabalhando também, tá? Mas eu vou olhar assim, eu vejo,
+30:32
+(Leandra Schneider) eh, aí você vê se sábado a gente precisa se encontrar, você (Leandra Schneider) me avisa até amanhã. Mas eu vou ver isso e
+30:40
+(Leandra Schneider) porque aí eu ou eu vou passear ou eu vou ficar em casa mesmo para (Rafael de PauliBaptista) Abraço. Não, mas acho que não dá pra gente se encontrar, - (Leandra Schneider) fazer isso de
+30:48
+(Rafael de PauliBaptista) porque vamos fazer isso primeiro, porque - (Leandra Schneider) manhã. (Rafael de PauliBaptista) ou a gente se encontra ou a gente é é
+30:56
+(Rafael de PauliBaptista) estuda, né? Vamos, vamos fazer esse sábado estudar então um - (Leandra Schneider) Vamos. É, eu acho (Leandra Schneider) que é tá. a gente procura então e aí a gente tenta
+31:04
+(Leandra Schneider) colocar nesse negócio do link que você falou e a gente vai conversando (Leandra Schneider) por lá, porque hoje eu e você conseguiam entrar. Pode
+31:12
+(Leandra Schneider) ser que sábado, né? Ou você ou eu não, mas os outros também tem (Rafael de PauliBaptista) pouquinho. É, - (Leandra Schneider) que estar participando,
+31:20
+(Rafael de PauliBaptista) é, vamos conversando lá então no no WhatsApp, - (Leandra Schneider) né? (Rafael de PauliBaptista) enfim. Mas a princípio vamos fazer isso no sábado. Então daí é tipo a - (Leandra Schneider) Eu Uhum. Mas eu gostei disso aí.
+31:28
+(Rafael de PauliBaptista) gente não ser runa, pelo menos a gente dá um ponté inicial e depois o (Rafael de PauliBaptista) pessoal dá continuação com o nosso trabalho, sei - (Leandra Schneider) Vamos acompanhando e
+31:36
+(Rafael de PauliBaptista) lá. - (Leandra Schneider) sugerindo outras coisas, né? (Rafael de PauliBaptista) Ah, combinado - (Leandra Schneider) Beleza. Então eu vou tomar uma cerveja agora e vou comer um
+31:44
+(Rafael de PauliBaptista) então. - (Leandra Schneider) churrasco. Ai (Leandra Schneider) se meu marido me mata, me queima, cara. Manda isso aqui para
+31:52
+(Rafael de PauliBaptista) Beleza. Eh, é esses esses arquivos - (Leandra Schneider) mim. (Rafael de PauliBaptista) aqui ou só isso aqui? - (Leandra Schneider) Isso. R não só eh isso aqui
+32:00
+(Rafael de PauliBaptista) Tá, mas é tá dentro - (Leandra Schneider) que são as (Rafael de PauliBaptista) daquele, acho que você mesmo - (Leandra Schneider) variáveis do do coisa, né?
+32:08
+(Rafael de PauliBaptista) já é, acho que você colocou lá no no nosso - (Leandra Schneider) Do grupo, tá? (Rafael de PauliBaptista) WhatsApp, é para tá no zip - (Leandra Schneider) Não, eu pego lá, pode deixar.
+32:16
+(Rafael de PauliBaptista) lá, - (Leandra Schneider) Uhum. Não, eu olho lá certinho. Ótimo. Muito (Leandra Schneider) obrigada. Eu acho que foi muito bom esse encontro aqui para esclarecer e eu acho que vai
+32:24
+(Rafael de PauliBaptista) tá? Não, tomar não vai ficar - (Leandra Schneider) ficar bem legal esse (Rafael de PauliBaptista) assim. - (Leandra Schneider) trabalho. Vai sim. Eu, na verdade, eu fico com receio de me
+32:32
+(Leandra Schneider) oferecer para participar com as pessoas que todo mundo sabe que eu não entendo muita (Leandra Schneider) coisa de fazer assim, mas pelo menos a regra do negócio eu tento
+32:40
+(Rafael de PauliBaptista) Não, já já ajuda - (Leandra Schneider) entender. Então tá (Rafael de PauliBaptista) já. Até mais, L. Ciao. - (Leandra Schneider) já. Então, obrigada. Tá. Até. Ciao.
+32:48
+(Leandra Schneider) Ciao. (Rafael de PauliBaptista) Ciao.
