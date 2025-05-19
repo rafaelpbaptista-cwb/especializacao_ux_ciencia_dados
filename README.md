@@ -62,9 +62,10 @@ O time de logística quer avaliar possibilidades de se ter uma solução que pos
 
 ## ❓ Perguntas Críticas para Refinamento
 
-1. **Há interesse da área solicitante em entender apenas o risco (classificação)** ou também o **motivo do atraso** (ex: análise causal)?
-
-2. **Existe algum critério de recorte geográfico ou por tipo de praça que a empresa gostaria de ver detalhado?**
-
-3. **A expectativa da área solicitante inclui apenas uma análise exploratória dos motivos de atraso ou também a entrega de um modelo de classificação preditivo para identificar o risco de atraso?**
+1. **A expectativa da área solicitante inclui apenas uma análise exploratória dos motivos de atraso ou também a entrega de um modelo de classificação preditivo para identificar o risco de atraso?**
     - Atenção com a questão das séries temporais.
+      - Para a criação de um modelo de classificação devemos considerar a série temporal?
+    - É interessante avaliar a relação entre uma variável preditora com o target (atraso)?
+      - Método da máxima verossimilhança. 
+      - Teste de Hosmer & Lemeshow.
+      - Qui-Quadrada
