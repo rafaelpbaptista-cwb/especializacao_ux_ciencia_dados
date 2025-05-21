@@ -1,0 +1,1 @@
+jupyter nbconvert --to html analise_exploratoria.ipynb --execute --TemplateExporter.exclude_input=True
