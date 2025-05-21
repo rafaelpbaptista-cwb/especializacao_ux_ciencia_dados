@@ -69,3 +69,59 @@ O time de logística quer avaliar possibilidades de se ter uma solução que pos
       - Método da máxima verossimilhança. 
       - Teste de Hosmer & Lemeshow.
       - Qui-Quadrada
+
+2. **Sugestão de divisão de tarefas:**
+   - Análise Exploratório
+   - Confecção Apresentação
+   - Criação Modelo de Classificação
+   - Outras sugestões?
+   - Cada atividade deve ser feita pelas 4 pessoas? Sugestões de divisão?
+
+# 📌 Resumo da 2ª Reunião – Case XPTO – Identificação de Risco de Atrasos em Pedidos
+
+## 1. Entendimento do Problema (Refinado)
+
+- Reforço do objetivo principal: **identificar fatores que influenciam o atraso nas entregas**.
+- Discussão sobre **possibilidade de criar modelo de classificação** (atrasado ou não) ou apenas **solução exploratória com insights relevantes**.
+- Debate sobre **ponto inicial da contagem de prazo de entrega**: data de pagamento x data de despacho.
+
+## 2. Dicas e Direcionamentos do Professor
+
+- **O case é aberto**, e o importante é **justificar a escolha metodológica** da solução proposta.
+- A solução pode ser:
+  - Um **modelo preditivo** (classificação ou regressão).
+  - Uma **análise descritiva bem estruturada com sugestões de ações**.
+  - Um **dashboard interativo que oriente decisões**.
+- A entrega precisa **convencer o cliente de que resolve o problema**, mesmo que não envolva modelos.
+- Incentivou o grupo a **trazer sugestões de uso real da solução**, como:
+  - Monitoramento semanal/mensal.
+  - Gatilhos de decisão a partir de determinadas métricas (ex: “probabilidade de atraso > 70% aciona área X”).
+- Reforçou a importância de **documentar tecnicamente** o que foi feito (Jupyter, scripts, planilhas, etc).
+
+## 3. Questões Técnicas Discutidas
+
+- Avaliação de **testes de hipótese** como método para embasar decisões (ex: teste qui-quadrado, Mann-Whitney).
+- Discussão sobre **modelagem com dados temporais**:
+  - Se o grupo optar por séries temporais (ex: ARIMA), precisa garantir ordenação e consistência nos dados.
+  - Alternativa: transformar datas em variáveis derivadas como diferença entre datas (ex: dias até entrega).
+- Retomada de conceitos aprendidos com a professora Rita (teste de hipóteses, regressão logística).
+
+## 4. Abordagens e Divisão de Tarefas (Atualização)
+
+- **Rafael**: Tratamento dos dados e Análise Exploratória Inicial (EDA).
+- **Leandra**: Formulação de perguntas analíticas e suporte nos testes estatísticos.
+- **Vanessa**: Responsável pelo BIA e apoio na organização do material de apresentação.
+- **Fernando**: Responsável por construir o **modelo de classificação**, possivelmente com regressão logística ou árvore de decisão.
+
+## 5. Alinhamentos e Ações Definidas
+
+- Rafael entregará EDA inicial até domingo à noite.
+- Grupo discutirá melhores formas de apresentação e estrutura da entrega.
+- Vanessa reforçou que um **bom EDA pode, por si só, entregar muito valor**.
+- Leandra e Rafael reforçaram a importância de buscar insights sobre região, forma de pagamento e sazonalidade.
+- Foi sugerida a **inspiração em projetos anteriores** (ex: modelo Honda para previsão com dados de data e hora).
+
+## 6. Considerações Finais
+- A professora orientou que o **modelo é a “cereja do bolo”** — o mais importante é **mostrar que a solução proposta pode ser útil na prática**.
+- A documentação de tudo o que foi feito é obrigatória (scripts, apresentações, outputs).
+
